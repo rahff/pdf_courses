@@ -1,0 +1,5 @@
+https://aws.amazon.com/fr/ec2/autoscaling/?nc1=h_ls
+https://docs.aws.amazon.com/fr_fr/autoscaling/ec2/userguide/create-launch-config.html
+https://docs.aws.amazon.com/fr_fr/autoscaling/ec2/userguide/create-lc-with-instanceID.html
+https://docs.aws.amazon.com/fr_fr/autoscaling/ec2/userguide/change-launch-config.html
+

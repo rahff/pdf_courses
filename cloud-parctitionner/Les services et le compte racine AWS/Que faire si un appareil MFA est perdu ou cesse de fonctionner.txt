@@ -1,0 +1,77 @@
+Source : PDF
+
+Source HTML 
+
+Si votre périphérique MFA virtuel ou votre périphérique MFA matériel semble fonctionner correctement, mais que vous ne pouvez pas accéder à vos ressources AWS, il est possible qu'il ne soit plus synchronisé avec AWS. Pour plus d'informations sur la synchronisation d'un périphérique MFA virtuel ou d'un périphérique MFA matériel, consultez Resynchronisation des appareils MFA virtuels et physiques. Les clés de sécurité U2F ne se désynchronisent pas.
+
+Si votre périphérique d'authentification MFA Utilisateur racine d'un compte AWS est perdu, endommagé ou ne fonctionne pas, vous pouvez récupérer l'accès à votre compte. Les utilisateurs IAM doivent contacter un administrateur pour désactiver le périphérique.
+
+Récupération d'un appareil MFA utilisateur racine
+
+Si votre périphérique d'authentification multi-facteurs (MFA) Utilisateur racine d'un compte AWS est perdu, endommagé ou s'il cesse de fonctionner, vous pouvez vous connecter à l'aide d'autres méthodes d'authentification. Cela signifie que si vous ne pouvez pas vous connecter avec votre périphérique MFA, vous pouvez vous connecter en confirmant votre identité à l'aide de l'adresse e-mail et du numéro de téléphone qui sont enregistrés dans votre compte.
+
+Avant de vous connecter en tant qu'utilisateur racine à l'aide d'autres facteurs d'authentification, assurez-vous que vous avez accès à l'adresse e-mail et au numéro de téléphone qui sont associés à votre compte. Si vous n'avez plus accès à l'e-mail ou au téléphone, vous devez contacter AWS Support. Ils peuvent désactiver votre périphérique MFA afin que vous puissiez vous connecter et en ajouter un nouveau.
+
+Pour vous connecter à l'aide d'autres facteurs d'authentification en tant qu'Utilisateur racine d'un compte AWS
+
+Connectez-vous à AWS Management Console en tant que propriétaire du compte en choisissant utilisateur racine et en saisissant l'adresse e-mail de votre compte AWS. Sur la page suivante, saisissez votre mot de passe.
+
+Sur la page Amazon Web Services Sign In Using MFA (Connexion à Amazon Web Services à l'aide de MFA), choisissez Having problems with your authentication device? (Problèmes avec votre périphérique d'authentification ?) Click here (Cliquez ici).
+
+Note
+
+Il se peut que vous constatiez des textes différents, tels que Se connecter à l'aide de MFA et Dépanner votre appareil d'authentification. Toutefois, les mêmes fonctions sont fournies. Dans ces deux cas, si vous ne pouvez pas vérifier l'adresse e-mail et le numéro de téléphone de votre compte à l'aide d'autres facteurs d'authentification, contactez AWS Support pour désactiver votre périphérique MFA.
+
+Si besoin, saisissez à nouveau votre mot de passe et choisissez Sign in (Connexion).
+
+Dans la section Sign In Using Alternative Factors of Authentication (Se connecter en utilisant d'autres facteurs d'authentification), choisissez Sign in using alternative factors (Se connecter à l'aide d'autres facteurs).
+
+Pour authentifier votre compte en confirmant l'adresse e-mail, choisissez Send verification email (Envoyer un e-mail de vérification).
+
+Vérifiez si vous avez reçu un message d'Amazon Web Services (no-reply-aws@amazon.com) à l'adresse e-mail associée à votre compte AWS. Suivez les instructions de l'e-mail.
+
+Si vous ne voyez pas d'e-mail dans votre boîte de réception, vérifiez le dossier des courriers indésirables, ou revenez à votre navigateur et choisissez Resend the email (Renvoyer l'e-mail).
+
+Une fois que vous avez confirmé votre adresse e-mail, vous pouvez continuer à authentifier votre compte. Pour confirmer votre numéro de téléphone, choisissez Call me now (M'appeler maintenant).
+
+Répondez à l'appel d'AWS, puis, lorsque vous y êtes invité, saisissez le numéro à six chiffres du site web AWS sur le clavier de votre téléphone.
+
+Si vous ne recevez pas d'appel d'AWS, choisissez Sign in (Connexion) pour vous connecter à nouveau à la console et recommencez. Ou choisissez AWS Support pour obtenir l'aide du support.
+
+Une fois que vous avez confirmé votre numéro de téléphone, vous pouvez vous connecter à votre compte en choisissant Sign in to the console (Se connecter à la console).
+
+L'étape suivante varie selon le type de MFA que vous utilisez :
+
+Si vous utilisez un périphérique MFA virtuel, supprimez le compte de votre périphérique. Ensuite, accédez à la page AWS Security Credentials (Informations d'identification de sécurité AWS) et supprimez l'ancienne entité de périphérique virtuel MFA avant d'en créer une nouvelle.
+
+Pour une clé de sécurité U2F, accédez à la page AWS Security Credentials (Informations d'identification de sécurité AWS) et désactivez l'ancienne clé U2F avant d'en activer une nouvelle.
+
+Si vous utilisez un périphérique MFA matériel, contactez le fournisseur tiers pour qu'il dépanne ou remplace le périphérique. Vous pouvez continuer à vous connecter à l'aide d'autres facteurs d'authentification jusqu'à ce que vous receviez votre nouveau périphérique. Une fois que vous avez le nouveau périphérique MFA matériel, rendez-vous sur la page AWS Security Credentials (Informations d'identification de sécurité AWS) et supprimez l'ancienne entité de périphérique matériel MFA avant d'en créer une nouvelle.
+
+Note
+
+Vous n'êtes pas obligé de remplacer un périphérique MFA perdu ou volé par le même type de périphérique. Par exemple, si vous cassez votre clé de sécurité U2F et en commandez une nouvelle, vous pouvez utiliser un périphérique MFA virtuel ou matériel jusqu'à ce que vous receviez la nouvelle clé de sécurité U2F.
+
+Si votre périphérique MFA est perdu ou volé, modifiez votre mot de passe AWS, au cas où un pirate informatique aurait volé le périphérique d'authentification et détiendrait également votre mot de passe actuel.
+
+Récupération d'un appareil MFA d'utilisateur IAM
+
+Si vous êtes un utilisateur IAM et que votre périphérique est perdu ou a cessé de fonctionner, vous ne pouvez pas le récupérer vous-même. Vous devez contacter un administrateur pour désactiver le périphérique. Ensuite, vous pouvez activer un nouveau périphérique.
+
+Pour obtenir de l'aide pour un périphérique MFA en tant qu'utilisateur IAM
+
+Contactez l'administrateur AWS ou la personne vous ayant fourni le nom utilisateur et le mot de passe pour l'utilisateur IAM. L'administrateur doit désactiver le périphérique MFA, comme décrit dans Désactivation des périphériques MFA, afin que vous puissiez vous connecter.
+
+L'étape suivante varie selon le type de MFA que vous utilisez :
+
+Si vous utilisez un périphérique MFA virtuel, supprimez le compte de votre périphérique. Activez ensuite le périphérique virtuel comme décrit dans Activation d'un appareil Multi-Factor Authentication (MFA) virtuel (console).
+
+Si vous utilisez une clé de sécurité U2F, contactez le fournisseur tiers pour qu'il remplace le périphérique. Lorsque vous recevez la nouvelle clé de sécurité U2F, activez-le comme décrit dans Activation d'une clé de sécurité U2F (console).
+
+Si vous utilisez un périphérique MFA matériel, contactez le fournisseur tiers pour qu'il dépanne ou remplace le périphérique. Une fois que vous avez le nouveau périphérique MFA, activez-le comme décrit dans Activation d'un appareil MFA physique (console).
+
+Note
+
+Vous n'êtes pas obligé de remplacer un périphérique MFA perdu ou volé par le même type de périphérique. Par exemple, si vous cassez votre clé de sécurité U2F et en commandez une nouvelle, vous pouvez utiliser un périphérique MFA virtuel ou matériel jusqu'à ce que vous receviez la nouvelle clé de sécurité U2F.
+
+Si votre périphérique MFA est perdu ou volé modifiez également votre mot de passe, au cas où un pirate informatique aurait volé le périphérique d'authentification et détiendrait également votre mot de passe actuel.

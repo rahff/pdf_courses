@@ -1,0 +1,5 @@
+#!/bin/bash
+yum install httpd php php-mysql -y
+service httpd start
+systemctl enable httpd
+echo "<h1>Hello World</h1>" >> /var/www/html/index.html 

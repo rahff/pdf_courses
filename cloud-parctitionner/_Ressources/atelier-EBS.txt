@@ -1,0 +1,20 @@
+sudo su 
+lsblk
+fdisk -l 
+mkfs -t ext4 /dev/xvdf
+clear
+pwd cd /
+mkdir VolumeEBS1
+mount /dev/xvdf VolumeEBS1
+echo 'ceci est mon nouveau volume EBS de 1024 Go' > VolumeEBS1/data-ebs.txt
+
+réaliser un snapshot
+puis 
+umount VolumeEBS1
+detacher le volume dans la console 
+supprimer le volume 
+noter le nom du snapshot
+
+re provisionner un nouveau volume a partir du snapshot 
+mount /dev/xvdf VolumeEBS1
+verifier la présence du fichier ebs.txt

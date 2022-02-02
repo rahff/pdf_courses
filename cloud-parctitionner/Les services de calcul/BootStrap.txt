@@ -1,0 +1,23 @@
+******************************
+** Section pour le serveur 1**
+******************************
+#!/bin/bash
+yum install httpd -y
+service httpd start 
+echo "<h1>SERVEUR NUMERO 1</h1>" >> /var/www/html/index.html
+
+******************************
+** Section pour le serveur 2**
+******************************
+#!/bin/bash
+yum install httpd -y
+service httpd start 
+echo "<h1>SERVEUR NUMERO 2</h1>" >> /var/www/html/index.html
+
+******************************
+** Section pour le serveur 3**
+******************************
+#!/bin/bash
+yum install httpd -y
+service httpd start 
+echo "<h1>SERVEUR NUMERO 3</h1>" >> /var/www/html/index.html

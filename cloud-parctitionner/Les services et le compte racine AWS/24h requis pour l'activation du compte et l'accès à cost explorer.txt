@@ -1,0 +1,25 @@
+Attendez l'activation du compte.
+
+source : https://aws.amazon.com/fr/premiumsupport/knowledge-center/create-and-activate-aws-account/
+
+Après que vous avez choisi une formule Support, une page de confirmation indique que l'activation de votre compte est en cours. Bien que l'activation s'effectue généralement en quelques minutes, le processus peut prendre jusqu'à 24 heures.
+
+Vous pouvez vous connecter à votre compte AWS, même s'il est toujours en cours d'activation. En outre, il est possible que le bouton Terminer l'inscription s'affiche sur la page d'accueil AWS, même si vous avez terminé toutes les étapes de la procédure d'inscription.
+
+Lorsque votre compte est entièrement activé, vous recevez un e-mail de confirmation. Recherchez l'e-mail de confirmation dans votre dossier de messagerie et de courrier indésirable. Après avoir reçu cet e-mail, vous disposez d'un accès complet à tous les services AWS.
+
+Résolution des problèmes de retards pendant l'activation du compte
+
+Il peut arriver que l'activation d'un compte soit retardée. Si le processus prend plus de 24 heures, vérifiez les points suivants :
+
+Terminez le processus d'activation de compte. Il est possible que vous ayez fermé, de manière accidentelle, la fenêtre permettant de réaliser la procédure d'inscription avant d'avoir ajouté toutes les informations nécessaires. Pour terminer le processus d'inscription, accédez à cette page. Ensuite, sélectionnez Se connecter à un compte AWS existant, puis connectez-vous à l'aide de l'adresse e-mail et du mot de passe que vous avez choisis pour le compte.
+
+Vérifiez les informations associées à votre mode de paiement. Vérifiez les modes de paiement dans la console AWS Billing and Cost Management. Corrigez les informations erronées éventuelles.
+
+Contactez votre établissement financier. Il arrive parfois que les établissements financiers rejettent les demandes d'autorisation d'AWS pour différentes raisons. Contactez l'établissement financier correspondant à votre mode de paiement et demandez-lui d'approuver les demandes d'autorisation d'AWS.Remarque : AWS annule la demande d'autorisation dès que votre établissement financier l'approuve. Aucuns frais ne vous sont facturés pour les demandes d'autorisation d'AWS. Toutefois, il peut arriver que des frais modiques (généralement 1 USD) puissent quand même être facturés pour les demandes d'autorisation et apparaître sur votre relevé bancaire.
+
+Vérifiez que vous n'avez pas reçu d'e-mail demandant des informations supplémentaires. Consultez votre messagerie électronique et votre dossier de courrier indésirable afin de vérifier si AWS vous a demandé des informations pour terminer le processus d'activation.
+
+Essayez un autre navigateur.
+
+Contactez AWS Support. Contactez AWS Support pour obtenir de l'aide. Veillez à mentionner toutes les étapes de dépannage que vous avez déjà essayées.Remarque : ne fournissez pas d'informations sensibles, telles que des numéros de carte bancaire, dans vos échanges avec AWS.

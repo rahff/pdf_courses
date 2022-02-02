@@ -1,0 +1,32 @@
+Bonjour à toutes et à Tous,
+
+Certains élèves ne suppriment pas les snapshots ou les volumes EBS, je vous rappelle que le transfert de données ou l'enregistrement de nom de domaine engendre des frais récurrents, noter également que des options AWS Budget ou Cost explorer peuvent entrainer des frais ils ne sont pas gratuits. ( voir les conditions ci dessous. n'activez pas les rapports par exemple, et prenez bien soins de supprimer toutes ressources, vérifiez en filtrant par région puis par services. )
+
+Si vous vous êtes contenté d'utiliser l'alarme budget dans Cloudwatch et mis une alarme de 1, 2 ou 5$ vous risquez de ne pas vous rendre compte de toutes petites facturation de 0.01 cts par exemple. Restez donc très vigilent.
+
+Je vous remets les informations à jour coté AWS Budget.
+
+source : https://aws.amazon.com/fr/aws-cost-management/pricing/?nc1=h_ls
+
+Budgets AWS
+
+Les budgets AWS vous permettent de définir des budgets de coûts et d'utilisation personnalisés qui vous alertent lorsque les seuils de votre budget sont dépassés (ou qu'il est prévu qu'ils le soient). Vous pouvez également créer des budgets pour suivre l'utilisation et les mesures de couverture de vos plans de réservation et d'épargne agrégés. Vous pouvez surveiller vos budgets et recevoir des notifications à leur sujet gratuitement.
+
+Outre le suivi des budgets, vous pouvez ajouter des actions à vos budgets pour contrôler les autorisations IAM et les politiques de contrôle des services ainsi que les ressources AWS lorsque les seuils sont dépassés (ou qu'il est prévu qu'ils le soient). Vos deux premiers budgets activés par action sont gratuits (quel que soit le nombre d'actions que vous configurez par budget) par mois. Par la suite, chaque nouveau budget activable par action entraînera un coût quotidien de 0,10 $.
+
+Rapports sur les budgets AWS
+
+Les rapports sur les budgets AWS vous permettent de suivre les performances de votre portefeuille de budgets sur une base quotidienne, hebdomadaire ou mensuelle en recevant un rapport par e-mail. Chaque rapport livré entraînera un coût de 0,01 $.
+
+API AWS Cost Explorer
+
+L'API de l'AWS Cost Explorer vous permet d'accéder directement au moteur de requête interactif et ad hoc qui alimente l'AWS Cost Explorer. Chaque demande entraîne un coût de 0,01 $.
+
+Granularité des ressources et des heures de l'AWS Cost Explorer
+
+L'AWS Cost Explorer Hourly and Resource level granularity vous permet d'accéder à la granularité horaire pour les 14 derniers jours et à la granularité au niveau des ressources pour les instances EC2. Le coût est de 0,01 $ par mois pour 1 000 UsageRecords. Les UsageRecords sont définis comme une ligne d'utilisation. Par exemple, une instance EC2 fonctionnant pendant 24 heures générera 24 enregistrements d'utilisation distincts à la granularité horaire.
+
+Pour ceux qui souhaitent en savoir plus sur comment surveiller et gérer vos coûts AWS je vous recommande cette ressource
+
+https://youtu.be/pjrKDkzbas8
+
